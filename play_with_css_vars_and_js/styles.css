@@ -1,0 +1,28 @@
+:root {
+    --base: red;
+    --spacing: 20px;
+    --blur: 10px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+body {
+    text-align: center;
+    background: rgb(0, 0, 50);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(205, 227, 231);
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: var(--base);
+}
